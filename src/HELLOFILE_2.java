@@ -7,10 +7,13 @@
  *
  * @author hoang
  */
+import java.io.File;
 import java.util.*;
 public class HELLOFILE_2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         Scanner sc = new Scanner(new File("Hello.txt"));
-        System.out.println(sc.nextLine());
+        while (sc.hasNextLine()) {
+                System.out.println(sc.nextLine());
+            }
     }
 }
