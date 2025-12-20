@@ -16,9 +16,6 @@ public class J01016_18 {
         long a = sc.nextLong();
         String b = "" + a;
         int sum = 0 ; 
-        int cnt4[] = new int[256];
-        int cnt7[] = new int[256];
-        int cnt = 0 ; 
         for(int i = 0 ; i < b.length(); i++){
             char c = b.charAt(i);
             if(c == '4' || c == '7') sum ++;
